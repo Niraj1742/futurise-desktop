@@ -97,10 +97,10 @@ We welcome contributions! Here's how you can help:
 
 Below are screenshots of the application:
 
-<div align="center">
+<div align="center"> 
   <table>
     <tr>
-      <td align="center"><img src="./screenshot/1.jpeg" alt="Screenshot 1" width="200"/><br/><sub>Screenshot 1</sub></td>
+      <td align="center"><img src="Screenshot/1.jpeg" alt="Screenshot 1" width="200"/><br/><sub>Screenshot 1</sub></td>
       <td align="center"><img src="./screenshot/2.jpeg" alt="Screenshot 2" width="200"/><br/><sub>Screenshot 2</sub></td>
       <td align="center"><img src="./screenshot/3.jpeg" alt="Screenshot 3" width="200"/><br/><sub>Screenshot 3</sub></td>
       <td align="center"><img src="./screenshot/4.jpeg" alt="Screenshot 4" width="200"/><br/><sub>Screenshot 4</sub></td>

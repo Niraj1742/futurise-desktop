@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 50% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 196 100% 50%;
+    --primary-foreground: 222 47% 10%;
+
+    --secondary: 270 100% 50%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 25% 18%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+
+    --accent: 196 100% 50%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 196 100% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 222 47% 10%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 196 100% 50%;
+    --sidebar-primary-foreground: 222 47% 10%;
+    --sidebar-accent: 215 25% 18%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 215 25% 18%;
+    --sidebar-ring: 196 100% 50%;
+  }
+
+  * {
+    @apply border-border selection:bg-accent/25 selection:text-accent;
+  }
+  
+  body {
+    @apply bg-desktop-bg text-foreground antialiased overflow-hidden;
+    font-family: 'Inter', sans-serif;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  .font-display {
+    font-family: 'Orbitron', sans-serif;
+  }
+}
+
+@layer utilities {
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  .glass {
+    @apply backdrop-blur-xl bg-white/5 border border-white/10 shadow-[0_4px_12px_-2px_rgba(0,0,0,0.3)];
+  }
+  
+  .neo-blur {
+    @apply backdrop-blur-2xl bg-black/40 border border-white/10;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-br from-neon-blue via-neon-purple to-neon-pink bg-clip-text text-transparent;
+  }
+
+  .desktop-window {
+    @apply bg-desktop-window/80 backdrop-blur-xl border border-white/10 rounded-lg overflow-hidden shadow-lg;
+  }
+
+  .desktop-panel {
+    @apply bg-desktop-panel/90 backdrop-blur-xl border border-white/5 rounded-lg overflow-hidden;
+  }
+
+  .taskbar {
+    @apply bg-desktop-taskbar/90 backdrop-blur-xl border-t border-white/10;
+  }
+
+  .dock-icon {
+    @apply relative flex items-center justify-center w-12 h-12 rounded-full transition-all duration-300 
+    hover:bg-white/10 hover:scale-110 hover:shadow-neon-sm;
+  }
+
+  .dock-indicator {
+    @apply absolute -bottom-1 w-1 h-1 rounded-full bg-neon-blue;
+  }
+}

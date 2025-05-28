@@ -100,16 +100,16 @@ Below are screenshots of the application:
 <div align="center"> 
   <table>
     <tr>
-      <td align="center"><img src="Screenshot/1.jpeg" alt="Screenshot 1" width="200"/><br/><sub>Screenshot 1</sub></td>
-      <td align="center"><img src="./screenshot/2.jpeg" alt="Screenshot 2" width="200"/><br/><sub>Screenshot 2</sub></td>
-      <td align="center"><img src="./screenshot/3.jpeg" alt="Screenshot 3" width="200"/><br/><sub>Screenshot 3</sub></td>
-      <td align="center"><img src="./screenshot/4.jpeg" alt="Screenshot 4" width="200"/><br/><sub>Screenshot 4</sub></td>
+      <td align="center"><img src="Screenshot/1.jpeg" alt="Screenshot 1" width="200"/><br/>td>
+      <td align="center"><img src="Screenshot/2.jpeg" alt="Screenshot 2" width="200"/><br/></td>
+      <td align="center"><img src="Screenshot/3.jpeg" alt="Screenshot 3" width="200"/><br/></td>
+      <td align="center"><img src="Screenshot/4.jpeg" alt="Screenshot 4" width="200"/><br/></td>
     </tr>
     <tr>
-      <td align="center"><img src="./screenshot/5.jpeg" alt="Screenshot 5" width="200"/><br/><sub>Screenshot 5</sub></td>
-      <td align="center"><img src="./screenshot/6.jpeg" alt="Screenshot 6" width="200"/><br/><sub>Screenshot 6</sub></td>
-      <td align="center"><img src="./screenshot/7.jpeg" alt="Screenshot 7" width="200"/><br/><sub>Screenshot 7</sub></td>
-      <td align="center"><img src="./screenshot/8.jpeg" alt="Screenshot 8" width="200"/><br/><sub>Screenshot 8</sub></td>
+      <td align="center"><img src="Screenshot/5.jpeg" alt="Screenshot 5" width="200"/><br/></td>
+      <td align="center"><img src="Screenshot/6.jpeg" alt="Screenshot 6" width="200"/><br/></td>
+      <td align="center"><img src="Screenshot/7.jpeg" alt="Screenshot 7" width="200"/><br/></td>
+      <td align="center"><img src="Screenshot/8.jpeg" alt="Screenshot 8" width="200"/><br/></td>
     </tr>
   </table>
 </div>
